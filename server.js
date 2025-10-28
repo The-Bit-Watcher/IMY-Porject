@@ -7,7 +7,7 @@ const cors = require("cors");
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-const uri = process.env.MONGODB_URI || "mongodb+srv://shaunmarx05_db_user:shaun@imy220.eacjjp4.mongodb.net/codecollab?retryWrites=true&w=majority";
+const uri = process.env.MONGODB_URI 
 let db;
 let client;
 
